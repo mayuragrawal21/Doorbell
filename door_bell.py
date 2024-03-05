@@ -36,7 +36,7 @@ while True:
         cv2.imwrite("filename.jpg", frame)
         print('screenshot taken')
         # here replace chat_id and test.jpg with real things
-        bot.sendPhoto('946594421', photo=open('filename.jpg', 'rb'), caption = date_time)
+        bot.sendPhoto('9876543210', photo=open('filename.jpg', 'rb'), caption = date_time)
         
         # the number of images automaticallly increases by 1
         img_counter += 1
