@@ -2,7 +2,7 @@
 import cv2
 import telepot
 from datetime import datetime
-bot = telepot.Bot('5717459496:AAGJ8fG4xyR8ZNttAZdnBrIb9dAfZ0iSLeg')
+bot = telepot.Bot('123:abcd') # change the string with the credentials
 date_time_now = datetime.now()
 date_time = date_time_now.strftime("%d/%m/%Y %H:%M:%S")
 # intialize the webcam and pass a constant which is 0
